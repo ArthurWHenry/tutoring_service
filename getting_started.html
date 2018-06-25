@@ -24,99 +24,143 @@
 
     <section class="p-5 bg-light">
         <h1 class="display-4">Online Tutoring Packages</h1>
+        <h6>(Below we have a brief overview of the content provided for our courses.)</h6>
     </section>
 
     <section>
-        <div class="p-2 bg-light">
-            Our curriculum for English in Elementary and Middle School involves some of the following topics:
-            <ul class="p-2 list-group list-group-flush">
-                <li class="list-group-item">What a complete sentence consists of</li>
-                <li class="list-group-item">Know your punctuation marks</li>
-                <li class="list-group-item">Learn at least a few basic prepositions that express location, movement, or time</li>
-                <li class="list-group-item">Avoiding sentence fragments at all costs</li>
-                <li class="list-group-item">Tenses come in many forms. Learn past, present, and future first</li>
-            </ul>
-        </div>
-        <div class="p-3 bg-light">
-            <h6>The curriculum uploaded each week for our English courses provide about 3 hours of video and 7 pages of work.</h6>
-        </div>
-        <div class="p-2 bg-light">
+        <div class="table-responsive">
             <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">Sessions</th>
-                        <th scope="col">Grade Level</th>
-                        <th scope="col">Pricing</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Elementary</td>
-                        <td>$200</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Elementary - Middle</td>
-                        <td>$250</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Middle</td>
-                        <td>$300</td>
-                    </tr>
-                </tbody>
+            <thead>
+                <tr>
+                <th scope="col">Tutoring Package</th>
+                <th scope="col">Videos</th>
+                <th scope="col">Assignments</th>
+                <th scope="col">Difficulty</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">1</th>
+                <td>10 (each 1 hour)</td>
+                <td>15 (each 10 questions)</td>
+                <td>Easy</td>
+                </tr>
+                <tr>
+                <th scope="row">2</th>
+                <td>20 (each 1 hour)</td>
+                <td>25 (each 12 questions)</td>
+                <td>Intermediate</td>
+                </tr>
+                <tr>
+                <th scope="row">3</th>
+                <td>30 (each 1 hour 30 minutes)</td>
+                <td>35 (each 15 questions)</td>
+                <td>Intensive</td>
+                </tr>
+            </tbody>
             </table>
         </div>
     </section>
 
-    <section>
-        <div class="p-2 bg-light">
-            Our curriculum for Math in Elementary and Middle School involves some of the following topics:
-            <ul class="p-2 list-group list-group-flush">
-                <li class="list-group-item">Arithmetic</li>
-                <li class="list-group-item">Fractions</li>
-                <li class="list-group-item">Spatial Reasoning</li>
-                <li class="list-group-item">Mathematical Reasoning</li>
-                <li class="list-group-item">Algebra</li>
-            </ul>
+    <section class="p-5 bg-light">
+        <h4>To get a more in depth look at our courses click on a subject.</h4>
+        <hr>
+        <div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#english">
+                English
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="english" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">English</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h5 class="font-weight-bold">Topics that will be covered in videos:</h5><hr>
+                            What a complete sentence consists of<br><br>
+                            Know your punctuation marks<br><br>
+                            Learn a few basic prepositions that express location, movement, or time<br><br>
+                            Avoiding sentence fragments at all costs<br><br>
+                            Tenses come in many forms (Past, Present, and Future)
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#math">
+                Math
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="math" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Math</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#science">
+                Science
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="science" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Science</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="p-3 bg-light">
-            <h6>The curriculum uploaded each week for our Math courses provide about 5 hours of video and 12 pages of work.</h6>
-        </div>
-        <div class="p-2 bg-light">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">Sessions</th>
-                        <th scope="col">Grade Level</th>
-                        <th scope="col">Pricing</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Elementary</td>
-                        <td>$300</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Elementary - Middle</td>
-                        <td>$350</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Middle</td>
-                        <td>$400</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <hr>
     </section>
+
+    <!-- Add a page where you add studying tips or topics -->
 
     <footer>
         <div class="p-5 bg-light">
             Please <a href="mailto:arthur.henry001@mymdc.net">contact</a> us if you have any questions.
+            <div>
+                <i class="fab fa-facebook-f px-1"></i>
+                <i class="fab fa-instagram px-1"></i>
+                <i class="fab fa-twitter px-1"></i>
+            </div>
         </div>
     </footer>
 
