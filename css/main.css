@@ -4,6 +4,42 @@
     font-family: 'Mallanna', sans-serif;
     text-align: center;
 }
-/* The following classes are for the header of the website. */
 
-/* The following classes are for the footer of the website. */
+
+.tutor1-bg {
+    background-image: url("../img/online_tutor5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.tutor2-bg {
+    background-image: url("../img/online_tutor4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.tutor3-bg {
+    background-image: url("../img/online_tutor.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.spacer {
+    padding: 10rem 0rem;
+}
+
+.spacer-2 {
+    padding: 20rem;
+}
+
+.text-box {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2.5px solid rgba(255, 255, 255, 0.3);
+    padding: 3rem;
+}
