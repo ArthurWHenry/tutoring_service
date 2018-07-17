@@ -14,11 +14,25 @@
 
 <body>
     <header>
-        <nav class="navbar fixed-top navbar-light bg-light border-bottom">
-            <a class="navbar-brand" href="./index.html" alt="Link to Home page.">
-                <img class="rounded" src="./img/tutorCloud.png" width="30" height="30" alt="TutorCloud logo.">
-            </a>
-        </nav>
+        <div class="pos-f-t fixed-top">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                <h5 class="text-white h4">Menu</h5>
+                <span class="text-muted">
+                    <a class="btn btn-link" href="./getting_started.html" role="button" alt="Link to Getting Started page.">Get Started</a><br>
+                    <a class="btn btn-link" href="./about_us.html" role="button" alt="Link to Getting Started page.">About Us</a>
+                </span>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+                <a class="navbar-brand" href="./index.html" alt="Link to Home page.">
+                    <img class="rounded" src="./img/tutorCloud.png" width="30" height="30" alt="TutorCloud logo.">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+        </div>
     </header>
 
     <section class="p-5 bg-light">
@@ -161,7 +175,7 @@
     </section>
 
     <footer>
-        <div class="p-5 bg-light">
+        <div class="p-5 bg-dark text-white">
             <a href="./about_us.html" alt="Link to the About Us page.">About Us</a>
             <hr>
             Please <a href="mailto:arthur.henry001@mymdc.net">contact</a> us if you have any questions.
